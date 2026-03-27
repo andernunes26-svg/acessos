@@ -5,62 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acessos Rubinettos Group</title>
     <style>
-        /* Estilos Globais e Centralização */
         body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: 'Segoe UI', sans-serif; 
             background-color: #ffffff; 
             display: flex; 
             justify-content: center; 
             align-items: center; 
-            height: 100vh; /* Ocupa a altura total do frame */
+            height: 100vh; 
             margin: 0;
-            overflow: hidden; /* Evita barras de rolagem desnecessárias */
+            overflow: hidden;
         }
-        
-        /* Contêiner dos Ícones */
-        .container { 
-            display: flex; 
-            gap: 70px; /* Espaçamento entre as logos */
-            text-align: center; 
-            align-items: center;
-        }
-        
-        /* Estilo de cada "Botão" (Link) */
+        .container { display: flex; gap: 70px; text-align: center; align-items: center; }
         .card {
             text-decoration: none;
-            color: #333;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            width: 160px; /* Largura para acomodar a logo */
+            transition: transform 0.2s ease;
+            width: 180px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
         }
-        
-        /* Efeito ao passar o mouse */
-        .card:hover { 
-            transform: translateY(-5px); /* Sobe levemente */
-        }
-        
-        /* Estilo da Imagem da Logo */
+        .card:hover { transform: translateY(-5px); }
         .logo-img { 
-            max-width: 140px; /* Largura máxima da logo */
-            max-height: 80px; /* Altura máxima da logo para manter proporção */
-            width: auto;
-            height: auto;
-            margin-bottom: 20px; /* Espaço até o texto */
-            display: block;
-            /* Filtro opcional para dar um leve destaque */
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 20px; 
             filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.1));
         }
-        
-        /* Estilo do Texto da Label */
         .name { 
             font-weight: bold; 
             font-size: 13px; 
             text-transform: uppercase; 
-            color: #444; /* Cinza escuro profissional */
-            letter-spacing: 1.2px; /* Espaçamento entre letras */
+            color: #444; 
+            letter-spacing: 1.2px; 
         }
     </style>
 </head>
@@ -68,9 +44,20 @@
 
 <div class="container">
     <a href="https://www.rubinettos.com.br" target="_blank" class="card">
-        <img src="https://www.rubinettos.com.br/wp-content/uploads/2019/11/logo-rubinettos.png" class="logo-img" alt="Logo Rubinettos">
+        <img src="LOGO RUBINETTOS - PRETO.png" class="logo-img">
         <div class="name">SITE RUBINETTOS</div>
     </a>
 
     <a href="https://www.krommametais.com.br/" target="_blank" class="card">
-        <img src="
+        <img src="LOGO KROMMA METAIS - PRETO.png" class="logo-img">
+        <div class="name">SITE KROMMA</div>
+    </a>
+
+    <a href="https://www.dropmetais.com.br/" target="_blank" class="card">
+        <img src="LOGO DROP ESCRITA PRETO.png" class="logo-img">
+        <div class="name">SITE DROP</div>
+    </a>
+</div>
+
+</body>
+</html>
